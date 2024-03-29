@@ -1,0 +1,11 @@
+{
+  "name": "beta",
+  "version": "1.0.0",
+  "description": "A small CMS for small blogs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deepbleu Carpeso",
+  "license": "MIT"
+}

@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'merriweather';
+    font-style: normal;
+    font-weight: 100;
+    src: url('/merriweather_regular.ttf') format('truetype');
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+* {
+    box-sizing: border-box;
+    font-family: "merriweather";
+}
+nav {
+    padding: 20px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+    margin-right: 20px;
+    
+    & h1 {
+        margin: 0;
+        padding: 0;
+        display: inline;
+    }
+    & a {
+        text-decoration: none;
+        color: #333;
+    }
+}
+main {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 300px;
+}
+aside {
+    padding: 10px;
+}
